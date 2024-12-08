@@ -3,6 +3,16 @@
 @import 'cssres';
 @import 'global';
 
+body{
+  background-image: url(../images/BG.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 8368px;
+  height: 100%;
+  
+}
+
+
 .header {
   position: fixed;
   height: 100%;
@@ -10,6 +20,8 @@
   left: 0;
   right: 0;
   padding: 20px 0 20px;
+  background-color: #fff;
+  max-height: 96px;
   &__inner{
     display: flex;
     justify-content: space-between;
@@ -68,6 +80,7 @@
   height: 330px;
   padding: 182px 0 82px ;
   background-color: $bg;
+  flex: 0 0 auto;
 
   &__inner {
     display: flex;
@@ -100,8 +113,6 @@
   &__list-item+.footer-menu__list-item {
     padding-left: 12px;
   }
-
-  
 }
 
 @import 'media';
