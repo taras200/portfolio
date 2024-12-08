@@ -10,5 +10,10 @@
 a{
   text-decoration: none;
 }
+button,
+button:active,
+button:focus {
+  border: none;
+}
 
 
