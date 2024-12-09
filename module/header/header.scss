@@ -5,6 +5,7 @@
   left: 0;
   right: 0;
   padding: 20px 0 20px;
+  z-index: 1;
 
   &__inner {
     display: flex;
@@ -47,6 +48,7 @@
 
   &__list-item {
     padding: 12px 24px;
+    transition: all .3s;
   }
 
   &__list-item:hover {
