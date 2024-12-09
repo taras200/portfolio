@@ -1,4 +1,48 @@
 .services{
   background-color: $title;
-  height: 876px;
+  height: 988px;
+}
+.services-inner{
+  padding: 262px 0 150px;
+  display: flex;
+  justify-content: space-between;
+  &__ido{
+    padding-top: 119px;
+    max-width: 529px;
+  }
+  .about-inner__text-desc{
+    color: #87909D;
+    
+  }
+  .home__text-btn{
+    margin-top: 38px;
+  }
+  &__offers{
+    max-width: 584px;
+  }
+  &__offers-item{
+    padding: 32px;
+    margin-bottom: 24px;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 32px 96px 0px rgba(28, 25, 25, 0.16);
+  }
+  &__offers-item:hover{
+    border-left: 5px solid $accent;
+    transition: all .3s;
+  }
+  &__offers-title{
+   color:#132238; 
+   @extend %wsmedium-500;
+  font-weight: 600;
+   font-size: 20px;
+   line-height: 24px;
+   padding-bottom: 16px;
+  }
+  &__offers-desc{
+    color: #424E60;
+    line-height: 24px;
+    font-size: 16px;
+    @extend %wslight-400;
+  }
 }
