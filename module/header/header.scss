@@ -1,4 +1,5 @@
 .header {
+  
   position: fixed;
   height: 100%;
   top: 0;
@@ -64,4 +65,8 @@
     }
 
   }
+}
+.translate{
+  background-color: transparent;
+  cursor: pointer;
 }
